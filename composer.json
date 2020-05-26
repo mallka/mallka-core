@@ -1,0 +1,34 @@
+ {  
+      "name": "mallka/mallka-core",  
+      "description": "mallka shop core",  
+      "keywords": [  
+        "yii2",  
+        "mallka"  
+      ],  
+      "homepage": "https://mallka.com",  
+      "type": "yii2-extension",  
+      "license": "MIT",  
+      "support": {  
+        "source": "https://github.com/mallka/mallka-core"  
+      },  
+      "authors": [  
+        {  
+          "name": "Chen",  
+          "email": "chen@mallka.com"  
+        }  
+      ],  
+      "minimum-stability": "stable",  
+      "require": {  
+        "php": ">=7.3.0",  
+        "yiisoft/yii2": ">=2.0.6"  
+         
+      },  
+      "autoload": {  
+        "psr-4": {  
+          "\\": ""  
+        }  
+      },  
+      "config": {  
+        "process-timeout": 1800  
+      }  
+    }
